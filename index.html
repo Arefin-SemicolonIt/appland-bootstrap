@@ -8,7 +8,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
   <title>Appland</title>
 </head>
 
@@ -16,15 +20,15 @@
   <div class="container">
     <header>
       <nav>
-        <div class="navbar">
+        <div class="navbar navbar-expand-lg navbar-light bg-light ">
           <h1 class="item1">Appland</h1>
-          <ul class="item2">
-            <li class="item2_li"><a class="list" href="#"> Home </a></li>
-            <li class="item2_li"><a class="list" href="#"> App Features </a></li>
-            <li class="item2_li"><a class="list" href="#"> Gallery </a></li>
-            <li class="item2_li"><a class="list" href="#"> Pricing </a></li>
-            <li class="item2_li"><a class="list" href="#"> F.A.Q </a></li>
-            <li class="item2_li">
+          <ul class="navbar-nav position-absolute top-0 end-0 ">
+            <li class="nav-item"><a class="nav-link" href="#"> Home </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> App Features </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> Gallery </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> Pricing </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> F.A.Q </a></li>
+            <li class="nav-item">
               <select class="select">
                 <option>Drop Down</option>
                 <option>Drop Down 1</option>
@@ -33,26 +37,26 @@
                 <option>Drop Down 4</option>
               </select>
             </li>
-            <li class="item2_li"><a class="list" href="#"> Contact </a></li>
-            <li class="item2_li"><button class="btn1">Get Started</button></li>
+            <li class="nav-item"><a class="list" href="#"> Contact </a></li>
+            <li class="nav-item"><button class="btn1">Get Started</button></li>
           </ul>
 
           <div class="item3">
             <button class="myMenuBtn" id="myBtn"><i class="fa-solid fa-bars"></i></button>
-  
+
             <!-- The Modal -->
             <div id="myModal" class="modal">
-  
+
               <!-- Modal content -->
               <div class="modal-content">
                 <span class="close">&times;</span>
-           
+
                 <ul>
-                  <li class="item2_li"><a class="list" href="#"> Home </a></li><br/><br/>
-                  <li class="item2_li"><a class="list" href="#"> App Features </a></li><br/><br/>
-                  <li class="item2_li"><a class="list" href="#"> Gallery </a></li><br/><br/>
-                  <li class="item2_li"><a class="list" href="#"> Pricing </a></li><br/><br/>
-                  <li class="item2_li"><a class="list" href="#"> F.A.Q </a></li><br/><br/>
+                  <li class="item2_li"><a class="list" href="#"> Home </a></li><br /><br />
+                  <li class="item2_li"><a class="list" href="#"> App Features </a></li><br /><br />
+                  <li class="item2_li"><a class="list" href="#"> Gallery </a></li><br /><br />
+                  <li class="item2_li"><a class="list" href="#"> Pricing </a></li><br /><br />
+                  <li class="item2_li"><a class="list" href="#"> F.A.Q </a></li><br /><br />
                   <li class="item2_li">
                     <select class="select">
                       <option>Drop Down</option>
@@ -61,83 +65,89 @@
                       <option>Drop Down 3</option>
                       <option>Drop Down 4</option>
                     </select>
-                  </li><br/><br/>
-                  <li class="item2_li"><a class="list" href="#"> Contact </a></li><br/><br/>
+                  </li><br /><br />
+                  <li class="item2_li"><a class="list" href="#"> Contact </a></li><br /><br />
                   <li class="item2_li"><button class="btn1">Get Started</button></li>
-                </ul>  
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </nav>
-  </header>
+    </header>
 
-  <section class="section_1">
-    <span class="section_1_item">
-      <h1 class="section_1_item_color">App landing page template</h1>
-      <p class="section_1_item_article">Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii
-        forensibus voluptatibus. His ei
-        nihil feugait</p>
-      <button class="btn2"><i class="fab fa-google-play"></i> Google Play</button>
-      <button class="btn3"><i class="fa-brands fa-apple"></i> App Store</button>
+    <section class="d-flex">
+      <span class="align-self-center">
+        <h1 class="section_1_item_color">App landing page template</h1>
+        <p class="section_1_item_article">Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii
+          forensibus voluptatibus. His ei
+          nihil feugait</p>
+        <button class="btn2"><i class="fab fa-google-play"></i> Google Play</button>
+        <button class="btn3"><i class="fa-brands fa-apple"></i> App Store</button>
       </span>
-    <span class="section_2_item">
-      <img src="img/hero-img.png" alt="Trulli" width="550" height="420">
-    </span>
+      <span class="justify-content-end">
+        <img src="img/hero-img.png" alt="Trulli" width="550" height="420">
+      </span>
+    </section>
+
+    <section>
+      <div class="text-center mt-5 mb-5">
+        <h1 class="feature_color">App Features</h1>
+        <p class="feature_artical">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+          quidem. Sit sint
+          consectetur
+          velit. Quisquam quos quisquam cupiditate.Et nemoqui impedit suscipit alias ea. Quia fugiat sit in iste
+          officiis
+          commodi quidem hic quas.</p>
+      </div>
+
+      <div class="row" >
+        <div class="col-md-8 ">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Corporis voluptates sit</h2>
+              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            </div>
+
+            <div class="col-md-6">
+              <h2>Ullamco laboris nisi</h2>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+
+            <div class="col-md-6">
+              <h2>Labore consequatur</h2>
+              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            </div>
+
+            <div class="col-md-6">
+              <h2>Beatae veritatis</h2>
+              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            </div>
+            
+            <div class="col-md-6">
+              <h2>Molestiae dolor</h2>
+              <p>Et fuga et deserunt et enim. Dolorem architecto <br />ratione tensa raptor marte</p>
+            </div>
+
+            <div class="col-md-6">
+              <h2>Explicabo consectetur</h2>
+              <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 order-1 order-lg-1">
+          <img class="img-fluid" src="img/features.svg" alt="Trulli">
+        </div>
+      </div>
+
+
+
+  </div>
+
   </section>
 
-  <section>
-    <div class="feature">
-      <h1 class="feature_color">App Features</h1>
-      <p class="feature_artical">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
-        quidem. Sit sint
-        consectetur
-        velit. Quisquam quos quisquam cupiditate.Et nemoqui impedit suscipit alias ea. Quia fugiat sit in iste
-        officiis
-        commodi quidem hic quas.</p>
-    </div>
-
-    <div class="section_2">
-      <span class="section_2_item1">
-        <span class="section_2_item1_grid_a">
-          <h2>Corporis voluptates sit</h2>
-          <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-        </span>
-
-        <span class="section_2_item1_grid_b">
-          <h2>Labore consequatur</h2>
-          <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-        </span>
-
-        <span class="section_2_item1_grid_c">
-          <h2>Molestiae dolor</h2>
-          <p>Et fuga et deserunt et enim. Dolorem architecto <br />ratione tensa raptor marte</p>
-        </span>
-
-        <span class="section_2_item1_grid_d">
-          <h2>Ullamco laboris nisi</h2>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-        </span>
-
-        <span class="section_2_item1_grid_e">
-          <h2>Beatae veritatis</h2>
-          <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-        </span>
-
-        <span class="section_2_item1_grid_f">
-          <h2>Explicabo consectetur</h2>
-          <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
-        </span>
-      </span>
-      <span class="section_2_item2">
-        <img src="img/features.svg" alt="Trulli" width="550" height="420">
-      </span>
-
-    </div>
-
-  </section>
-
-  <section class="section_3">
+  <section class="d-flex mt-5">
     <span class="section_3_item1">
       <img src="img/details-1.png" alt="t" width="420" height="420">
     </span>
@@ -162,7 +172,7 @@
     </span>
   </section>
 
-  <section class="section_4">
+  <section class="d-flex mt-5">
     <span class="section_4_item1">
       <h1>Corporis temporibus maiores provident</h1>
       <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -182,7 +192,7 @@
 
   </section>
 
-  <section class="section_5">
+  <section class="d-flex mt-5">
     <span class="section_5_item1">
       <img src="img/details-3.png" alt="d3" width="300" height="420">
     </span>
@@ -207,7 +217,7 @@
     </span>
   </section>
 
-  <section class="section_6">
+  <section class="d-flex mt-5">
     <span class="section_6_item1">
       <h1>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h1>
       <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -233,8 +243,8 @@
     </span>
   </section>
 
-  <section class="section_7">
-    <div class="section_7_div">
+  <section class="text-center mt-5 mb-5">
+    <div class="mb-5">
       <h1>Gallery</h1>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
         consectetur
@@ -249,7 +259,7 @@
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol> -->
 
-    <div class="carousel-inner">
+    <div class="d-flex">
 
       <div class="item">
         <img src="img/gallery/gallery-4.png" alt="Los Angeles" style="width:90%;">
@@ -283,7 +293,7 @@
 
 
   <section class="section_8">
-    <div class="section_8_div">
+    <div class="text-center mb-5">
       <h1>Testimonials</h1>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
         consectetur
@@ -294,9 +304,9 @@
 
     <div class="section_8_card_div">
 
-      <div class="card_div">
+      <div class="d-flex">
 
-        <span class="card1">
+        <span class="card">
           <h3>Matt Brandon</h3>
           <p>Freelancer</p>
           <q> <i>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
@@ -304,7 +314,7 @@
               dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</i></q>
         </span>
 
-        <span class="card2">
+        <span class="card">
           <h3>Jena Karlis</h3>
           <p>Store Owner</p>
           <q><i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
@@ -317,8 +327,8 @@
 
   </section>
 
-  <section class="section_9">
-    <div class="section_9_div">
+  <section class="mb-5">
+    <div class="text-center mt-5 mb-5">
       <h1>Pricing</h1>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
         consectetur
@@ -327,8 +337,8 @@
         commodi quidem hic quas.</p>
     </div>
 
-    <div class="section_9_div2_main">
-      <div class="section_9_div2">
+    <div class="d-flex justify-content-center">
+      <div class="card">
 
         <h2>Free</h2>
         <h1>$0</h1>
@@ -342,7 +352,7 @@
         </ul>
       </div>
 
-      <div class="section_9_div2_1">
+      <div class="card">
 
         <h2>Business</h2>
         <h1>$29</h1>
@@ -356,7 +366,7 @@
         </ul>
       </div>
 
-      <div class="section_9_div2_2">
+      <div class="card">
 
         <h2>Developer</h2>
         <h1>$49</h1>
@@ -375,7 +385,7 @@
 
   <section class="section_10">
     <div class="section_10_1">
-      <div class="section_10_div">
+      <div class="text-center mb-5">
         <h1>Frequently Asked Questions</h1>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
           consectetur
